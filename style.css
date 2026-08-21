@@ -422,9 +422,16 @@ h2 {
 .footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-block: 30px;
   color: var(--muted);
   font-size: 0.82rem;
+}
+
+.ai-disclaimer {
+  color: var(--muted);
+  font-size: 0.75rem;
+  opacity: 0.7;
 }
 
 /* ===================================
